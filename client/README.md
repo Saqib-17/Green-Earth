@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🌱 Green Earth
 
-## Getting Started
+**Live Site:** [https://green-earth-ebon.vercel.app/](https://green-earth-ebon.vercel.app/)
+**GitHub Repo:** [https://github.com/yourusername/green-earth.git](https://github.com/yourusername/green-earth.git)
 
-First, run the development server:
+---
+
+## 🌿 Overview
+
+A fully responsive **Next.js + Tailwind CSS** web app built to promote tree planting and environmental awareness.
+Users can explore tree categories, add trees to their cart, and learn about the global campaign’s mission — all in a smooth, single-page layout inspired by nature.
+
+---
+
+## ⚙️ Setup
 
 ```bash
+git clone https://github.com/yourusername/green-earth.git
+cd green-earth
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Runs locally at → **[http://localhost:3000](http://localhost:3000)**
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## ✨ Features
 
-## Learn More
+🌳 **Dynamic tree section** with category filters
+🛒 **Add / remove from cart** with instant total updates
+🌿 **Hero banner** with eco-friendly call to action
+🍀 **About section** aligned perfectly with main grid
+📱 **Fully responsive layout** for all devices
+🌼 **Clean, minimal UI** based on Figma design
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🧩 Tech Stack
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+* **Next.js 14 (App Router)**
+* **React 18**
+* **Tailwind CSS + PostCSS**
+* **JSON data library** for trees and categories
+* **Netlify / Vercel** (Deployment)
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 👨‍💻 Developer
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**Md. Shahidul Islam Sakib**
+🔗 GitHub: [Saqib-17](https://github.com/Saqib-17)
+
+---
