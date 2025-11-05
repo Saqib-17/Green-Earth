@@ -1,7 +1,7 @@
 # 🌱 Green Earth
 
 **Live Site:** [https://green-earth-ebon.vercel.app/](https://green-earth-ebon.vercel.app/)
-**GitHub Repo:** [https://github.com/yourusername/green-earth.git](https://github.com/yourusername/green-earth.git)
+**GitHub Repo:** [(https://github.com/Saqib-17/Green-Earth)](https://github.com/yourusername/green-earth.git)
 
 ---
 
