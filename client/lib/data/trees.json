@@ -1,0 +1,38 @@
+[
+  {
+    "id": "mango-1",
+    "name": "Mango Tree",
+    "categoryId": "fruit",
+    "tag": "Fruit Tree",
+    "price": 500,
+    "description": "A fast-growing tropical tree that produces delicious, juicy mangoes during summer. Its dense green canopy provides ample shade.",
+    "image": "/images/mango-placeholder.png"
+  },
+  {
+    "id": "guava-1",
+    "name": "Guava Tree",
+    "categoryId": "fruit",
+    "tag": "Fruit Tree",
+    "price": 450,
+    "description": "Hardy and productive, guava trees yield vitamin-rich fruits and thrive in warm, humid climates.",
+    "image": "/images/guava-placeholder.png"
+  },
+  {
+    "id": "neem-1",
+    "name": "Neem Tree",
+    "categoryId": "medicinal",
+    "tag": "Medicinal Tree",
+    "price": 400,
+    "description": "A traditional medicinal tree known for its air-purifying qualities and natural pest-repellent properties.",
+    "image": "/images/neem-placeholder.png"
+  },
+  {
+    "id": "banyan-1",
+    "name": "Banyan Tree",
+    "categoryId": "shade",
+    "tag": "Shade Tree",
+    "price": 800,
+    "description": "Majestic and long-lived, banyan trees offer expansive shade and become living landmarks in communities.",
+    "image": "/images/banyan-placeholder.png"
+  }
+]

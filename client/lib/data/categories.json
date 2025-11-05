@@ -1,0 +1,13 @@
+[
+  { "id": "all", "label": "All Trees" },
+  { "id": "fruit", "label": "Fruit Trees" },
+  { "id": "flowering", "label": "Flowering Trees" },
+  { "id": "shade", "label": "Shade Trees" },
+  { "id": "medicinal", "label": "Medicinal Trees" },
+  { "id": "timber", "label": "Timber Trees" },
+  { "id": "evergreen", "label": "Evergreen Trees" },
+  { "id": "ornamental", "label": "Ornamental Plants" },
+  { "id": "bamboo", "label": "Bamboo" },
+  { "id": "climbers", "label": "Climbers" },
+  { "id": "aquatic", "label": "Aquatic Plants" }
+]

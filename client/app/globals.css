@@ -1,26 +1,66 @@
 @import "tailwindcss";
 
+/* Design tokens from Figma */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --green-primary: #188038;
+  /* navbar, footer */
+  --green-light: #e6f7ec;
+  /* light green sections */
+  --green-mid: #c9f0d5;
+  /* cards bg panels */
+  --yellow-primary: #ffcf33;
+  /* CTA buttons */
+  --gray-bg: #f3f3f3;
+  /* image placeholders */
+  --text-main: #1f2933;
+  --text-muted: #6b7280;
+  --card-radius: 0.75rem;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "SF Pro Text",
+    "Segoe UI", sans-serif;
+  color: var(--text-main);
+  background-color: #f5faf7;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  min-height: 100vh;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Equivalent of `mx-auto w-full max-w-6xl px-4` without @apply */
+.app-container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 72rem;
+  /* Tailwind's max-w-6xl */
+  padding-left: 1rem;
+  /* px-4 */
+  padding-right: 1rem;
+  /* px-4 */
+}
+
+/* Equivalent of `py-16` */
+.section-spacing {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+/* Custom shadow similar to Figma */
+.card-shadow {
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.06);
+}
+
+/* Accessible focus */
+:focus-visible {
+  outline: 2px solid #2563eb;
+  outline-offset: 2px;
 }
