@@ -46,15 +46,13 @@ export default function MainTreeSection({ trees, categories }) {
           Choose Your Trees
         </h2>
 
-        {/* Mobile: 1 col  |  Desktop: 250px - 1090px - 250px */}
         <div
           className="
             grid grid-cols-1 items-start gap-6
             md:gap-8
             lg:grid-cols-[250px_1090px_250px]
           "
-        >
-          {/* Categories (full width on mobile, 250px on desktop) */}
+        >          {/* Sidebar */}
           <div>
             <CategorySidebar
               categories={categories}
@@ -79,8 +77,7 @@ export default function MainTreeSection({ trees, categories }) {
               />
             ))}
           </div>
-
-          {/* Cart (full width on mobile, 250px on desktop) */}
+          {/* Cart Panel */}
           <div className="mt-4 lg:mt-0">
            <CartPanel items={cartItems} onRemoveItem={handleRemoveItem} />
 

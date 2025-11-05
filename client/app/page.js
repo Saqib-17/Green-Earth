@@ -22,51 +22,72 @@ export default async function HomePage() {
 
 
       {/* About Section */} 
-  
-    <section
-      id="about"
-      className="section-spacing bg-[#F0FDF4]"
-      aria-labelledby="about-heading"
-    >
-      <div className="app-container grid items-center gap-10 md:grid-cols-2">
-        {/* Left image */}
-        <div id="gallery">
-          <div className="relative mx-auto max-w-sm overflow-hidden rounded-2xl bg-white card-shadow">
-            <Image
-              src="/images/hero-image.png"
-              alt="Green plant representing the campaign"
-              width={480}
-              height={480}
-              className="h-80 w-full object-cover"
-              priority
-            />
-          </div>
-        </div>
+      <section
+  id="about"
+  className="lg:pl-16 md:pl-8 pl-0 section-spacing bg-[#F0FDF4]"
+  aria-labelledby="about-heading"
+>
+  <h2
+    id="about-heading"
+    className="mb-10 text-center text-2xl font-semibold text-gray-900"
+  >
+    About the Campaign
+  </h2>
 
-        {/* Right text */}
-        <div>
-          <h2
-            id="about-heading"
-            className="text-xl font-semibold text-gray-900"
-          >
-            About the Campaign
-          </h2>
-          <p className="mt-4 text-sm leading-relaxed text-(--text-muted)">
-            Green Earth is a global tree plantation initiative dedicated to
-            fighting climate change. Since our start, we’ve planted hundreds of
-            thousands of trees around the world. By joining our campaign, you
-            help restore forests, create habitats for wildlife, and combat
-            global warming.
-          </p>
-          <ul className="mt-4 list-disc space-y-1 pl-5 text-sm text-(--text-muted)">
-            <li>Restoration of natural habitats</li>
-            <li>Improvement of air quality</li>
-            <li>Support for local communities</li>
-          </ul>
-        </div>
+  <div
+    className="
+      app-container
+      grid
+      lg:grid-cols-[250px_1090px_250px]
+    "
+  >
+    {/* Left spacer (aligns with cart) */}  
+    <div />
+    {/* Center content */}  
+    <div
+      className="
+        grid items-stretch gap-8
+        md:grid-cols-[1.05fr_1.15fr]
+      "
+    >
+    
+      <div
+        id="gallery"
+        className="
+          relative overflow-hidden rounded-xl bg-white
+          h-[260px] md:h-[380px] 
+        "
+      >
+        <Image
+          src="/images/hero-image.png"
+          alt="Green plant representing the campaign"
+          fill
+          sizes="(max-width: 768px) 100vw, 540px"
+          className="object-cover"
+          priority
+        />
       </div>
-    </section>
-  
+
+      <div className="flex h-full flex-col justify-center">
+        <p className="mt-4 text-sm leading-relaxed text-(--text-muted)">
+          Green Earth is a global tree plantation initiative dedicated to
+          fighting climate change. Since our start, we’ve planted hundreds of
+          thousands of trees around the world. By joining our campaign, you
+          help restore forests, create habitats for wildlife, and combat
+          global warming.
+        </p>
+        <ul className="mt-4 list-disc space-y-1 pl-5 text-sm text-(--text-muted)">
+          <li>Restoration of natural habitats</li>
+          <li>Improvement of air quality</li>
+          <li>Support for local communities</li>
+        </ul>
+      </div>
+    </div>
+
+    {/* Right spacer (aligns with cart) */}
+    <div />
+  </div>
+</section>
 
 
 

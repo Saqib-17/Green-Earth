@@ -26,7 +26,7 @@ export default function CartPanel({ items, onRemoveItem }) {
               key={item.id}
               className="flex items-center justify-between rounded-xl bg-[#F0FDF4] px-3 py-2"
             >
-              {/* Left: name + price info */}
+              {/* name + price info */}
               <div className="space-y-0.5">
                 <p className="font-medium text-gray-800">{item.name}</p>
                 <p className="text-[0.7rem] text-(--text-muted)">
@@ -34,7 +34,7 @@ export default function CartPanel({ items, onRemoveItem }) {
                 </p>
               </div>
 
-              {/* Right: remove button + subtotal */}
+              {/* remove button + subtotal */}
               <div className="flex items-center gap-2">
                 <span className="text-xs font-semibold text-gray-900">
                   ৳{item.price * item.quantity}

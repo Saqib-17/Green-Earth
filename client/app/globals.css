@@ -7,7 +7,7 @@
   --green-light: #cff0dc;
   /* hero section */
   --green-mid: #c9f0d5;
-  /* optional panels */
+  /* secondary buttons */
   --yellow-primary: #ffcf33;
   /* CTA buttons */
   --gray-bg: #f3f3f3;
@@ -43,22 +43,19 @@ html {
   max-width: 80rem;
   max-width: 1590px;
   padding-left: 2.5rem;
-  /* 40px side padding */
   padding-right: 2.5rem;
 }
 
-/* Equivalent of Tailwind py-16 */
+
 .section-spacing {
   padding-top: 4rem;
   padding-bottom: 4rem;
 }
 
-/* Card shadow from Figma */
 .card-shadow {
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.06);
 }
 
-/* Accessible focus ring */
 :focus-visible {
   outline: 2px solid #2563eb;
   outline-offset: 2px;

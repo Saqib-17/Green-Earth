@@ -17,7 +17,7 @@ export default function TreeCard({ tree, onAddToCart }) {
           {tree.name}
         </h3>
 
-        {/* wider paragraph now, matches Figma */}
+  
         <p className="mt-2 text-sm leading-relaxed text-(--text-muted) line-clamp-3">
           {tree.description}
         </p>
