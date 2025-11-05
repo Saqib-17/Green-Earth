@@ -6,18 +6,19 @@ export default function TreeCard({ tree, onAddToCart }) {
       className="
         flex flex-col justify-between
         rounded-2xl bg-white p-4 card-shadow
-        w-[343px] min-h-[382px] max-w-full
+        w-full min-h-[360px]
       "
     >
       <div>
-        {/* Image placeholder – fixed height, same size always */}
+        {/* Image placeholder */}
         <div className="mb-4 h-40 w-full rounded-xl bg-(--gray-bg)" />
 
         <h3 className="text-sm font-semibold text-gray-900">
           {tree.name}
         </h3>
 
-        <p className="mt-2 line-clamp-3 text-xs leading-relaxed text-(--text-muted)">
+        {/* wider paragraph now, matches Figma */}
+        <p className="mt-2 text-sm leading-relaxed text-(--text-muted) line-clamp-3">
           {tree.description}
         </p>
 
@@ -33,7 +34,7 @@ export default function TreeCard({ tree, onAddToCart }) {
 
       <div className="mt-4">
         <Button
-          className="w-full bg-(--green-primary) text-white py-2.5 text-sm rounded-full"
+          className="w-full rounded-full bg-(--green-primary) py-2.5 text-sm text-white"
           onClick={() => onAddToCart(tree)}
         >
           Add to Cart

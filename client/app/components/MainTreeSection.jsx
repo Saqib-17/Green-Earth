@@ -34,7 +34,7 @@ export default function MainTreeSection({ trees, categories }) {
       className="section-spacing bg-[#F0FDF4]"
       aria-labelledby="trees-heading"
     >
-      <div className="app-container px-0">
+      <div className="app-container">
         <h2
           id="trees-heading"
           className="mb-10 text-center text-2xl font-semibold text-gray-900"
@@ -42,18 +42,16 @@ export default function MainTreeSection({ trees, categories }) {
           Choose Your Trees
         </h2>
 
-        {/* Full-width layout:
-            left 220px | middle 100% + (220px + 260px) | right 260px
-            visually: middle spans same total width as both sidebars */}
+        {/* Mobile: 1 col  |  Desktop: 250px - 1090px - 250px */}
         <div
           className="
-            grid gap-8
-            lg:grid-cols-[minmax(220px,220px)_minmax(0,calc(100%+480px))_minmax(260px,260px)]
-            items-start
+            grid grid-cols-1 items-start gap-6
+            md:gap-8
+            lg:grid-cols-[250px_1090px_250px]
           "
         >
-          {/* Left sidebar */}
-          <div className="justify-self-start">
+          {/* Categories (full width on mobile, 250px on desktop) */}
+          <div>
             <CategorySidebar
               categories={categories}
               activeCategoryId={activeCategoryId}
@@ -61,8 +59,14 @@ export default function MainTreeSection({ trees, categories }) {
             />
           </div>
 
-          {/* Middle cards area */}
-          <div className="grid justify-items-center gap-6 sm:grid-cols-2 xl:grid-cols-3">
+          {/* Cards */}
+          <div
+            className="
+              grid gap-6
+              sm:grid-cols-2
+              xl:grid-cols-3
+            "
+          >
             {filteredTrees.map((tree) => (
               <TreeCard
                 key={tree.id}
@@ -72,8 +76,8 @@ export default function MainTreeSection({ trees, categories }) {
             ))}
           </div>
 
-          {/* Right cart */}
-          <div className="justify-self-end">
+          {/* Cart (full width on mobile, 250px on desktop) */}
+          <div className="mt-4 lg:mt-0">
             <CartPanel items={cartItems} />
           </div>
         </div>

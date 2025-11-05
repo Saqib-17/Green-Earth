@@ -4,7 +4,7 @@ import Button from "./Button";
 export default function HeroSection() {
   return (
     <section
-      className="relative overflow-hidden bg-[#CFF0DC]" // updated greener background
+      className="relative overflow-hidden bg-[#CFF0DC]" 
       aria-labelledby="hero-heading"
     >
       {/* Left leaf */}

@@ -39,9 +39,9 @@ html {
 .app-container {
   margin-left: auto;
   margin-right: auto;
-  width: 100%;
+  width: 100%;  
   max-width: 80rem;
-  /* 1280px – matches Figma artboard */
+  max-width: 1590px;
   padding-left: 2.5rem;
   /* 40px side padding */
   padding-right: 2.5rem;
