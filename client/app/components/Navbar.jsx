@@ -12,17 +12,17 @@ export default function Navbar() {
           Green Earth
         </Link>
 
-        <nav className="hidden gap-10 text-sm font-medium md:flex">
-          <a href="#about" className="hover:opacity-90">
-            About
-          </a>
-          <a href="#gallery" className="hover:opacity-90">
-            Gallery
-          </a>
-          <a href="#trees" className="hover:opacity-90">
-            Plant a Tree
-          </a>
-        </nav>
+      <nav className="hidden gap-10 text-sm font-medium md:flex">
+  <Link href="#about">
+    About
+  </Link>
+  <Link href="#gallery" >
+    Gallery
+  </Link>
+  <Link href="#trees" >
+    Choose a tree
+  </Link>
+</nav>
 
         <Button
           as={Link}
