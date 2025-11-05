@@ -27,6 +27,10 @@ export default function MainTreeSection({ trees, categories }) {
       return [...prev, { ...tree, quantity: 1 }];
     });
   }
+  function handleRemoveItem(id) {
+  setCartItems((prev) => prev.filter((item) => item.id !== id));
+}
+
 
   return (
     <section
@@ -78,7 +82,8 @@ export default function MainTreeSection({ trees, categories }) {
 
           {/* Cart (full width on mobile, 250px on desktop) */}
           <div className="mt-4 lg:mt-0">
-            <CartPanel items={cartItems} />
+           <CartPanel items={cartItems} onRemoveItem={handleRemoveItem} />
+
           </div>
         </div>
       </div>
