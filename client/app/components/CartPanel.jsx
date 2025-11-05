@@ -6,7 +6,7 @@ export default function CartPanel({ items }) {
 
   return (
     <aside
-      className="rounded-xl bg-white p-4 card-shadow"
+      className="rounded-2xl bg-white p-4 card-shadow"
       aria-label="Your cart"
     >
       <h2 className="mb-4 text-sm font-semibold text-gray-800">
@@ -22,7 +22,7 @@ export default function CartPanel({ items }) {
           {items.map((item) => (
             <li
               key={item.id}
-              className="flex items-center justify-between"
+              className="flex items-center justify-between rounded-xl bg-[#F0FDF4] px-3 py-2"
             >
               <div className="space-y-0.5">
                 <p className="font-medium text-gray-800">{item.name}</p>
@@ -40,7 +40,7 @@ export default function CartPanel({ items }) {
 
       <div className="mt-4 border-t pt-3 text-sm font-semibold text-gray-900">
         <div className="flex items-center justify-between">
-          <span>Total</span>
+          <span>Total:</span>
           <span>৳{total}</span>
         </div>
       </div>

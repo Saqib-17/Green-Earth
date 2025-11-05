@@ -3,11 +3,11 @@
 /* Design tokens from Figma */
 :root {
   --green-primary: #188038;
-  /* navbar, footer */
-  --green-light: #e6f7ec;
-  /* light green sections */
+  /* navbar, primary buttons */
+  --green-light: #cff0dc;
+  /* hero section */
   --green-mid: #c9f0d5;
-  /* cards bg panels */
+  /* optional panels */
   --yellow-primary: #ffcf33;
   /* CTA buttons */
   --gray-bg: #f3f3f3;
@@ -35,40 +35,31 @@ html {
   scroll-behavior: smooth;
 }
 
-
+/* Single, global container – used everywhere */
 .app-container {
   margin-left: auto;
   margin-right: auto;
   width: 100%;
-  max-width: 72rem;
-  /* Tailwind's max-w-6xl */
-  padding-left: 1rem;
-  /* px-4 */
-  padding-right: 1rem;
-  /* px-4 */
+  max-width: 80rem;
+  /* 1280px – matches Figma artboard */
+  padding-left: 2.5rem;
+  /* 40px side padding */
+  padding-right: 2.5rem;
 }
 
-/* Equivalent of `py-16` */
+/* Equivalent of Tailwind py-16 */
 .section-spacing {
   padding-top: 4rem;
   padding-bottom: 4rem;
 }
 
-
+/* Card shadow from Figma */
 .card-shadow {
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.06);
 }
 
-/* Accessible focus */
+/* Accessible focus ring */
 :focus-visible {
   outline: 2px solid #2563eb;
   outline-offset: 2px;
-}
-.app-container {
-  margin: 0 auto;
-  width: 100%;
-  max-width: 80rem;
-  /* 1280px */
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
 }

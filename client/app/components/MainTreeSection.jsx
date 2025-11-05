@@ -31,11 +31,10 @@ export default function MainTreeSection({ trees, categories }) {
   return (
     <section
       id="trees"
-      className="section-spacing bg-[#F1FAF4]"
+      className="section-spacing bg-[#F0FDF4]"
       aria-labelledby="trees-heading"
     >
-      <div className="app-container">
-        {/* Heading */}
+      <div className="app-container px-0">
         <h2
           id="trees-heading"
           className="mb-10 text-center text-2xl font-semibold text-gray-900"
@@ -43,10 +42,18 @@ export default function MainTreeSection({ trees, categories }) {
           Choose Your Trees
         </h2>
 
-        {/* GRID: left 240px | middle flexible | right 260px */}
-        <div className="grid gap-8 lg:grid-cols-[240px_minmax(0,1fr)_260px] xl:grid-cols-[260px_minmax(0,1.15fr)_280px]">
-          {/* Left Sidebar */}
-          <div className="self-start">
+        {/* Full-width layout:
+            left 220px | middle 100% + (220px + 260px) | right 260px
+            visually: middle spans same total width as both sidebars */}
+        <div
+          className="
+            grid gap-8
+            lg:grid-cols-[minmax(220px,220px)_minmax(0,calc(100%+480px))_minmax(260px,260px)]
+            items-start
+          "
+        >
+          {/* Left sidebar */}
+          <div className="justify-self-start">
             <CategorySidebar
               categories={categories}
               activeCategoryId={activeCategoryId}
@@ -54,21 +61,19 @@ export default function MainTreeSection({ trees, categories }) {
             />
           </div>
 
-          {/* Middle Cards Grid */}
-          <div>
-            <div className="grid gap-8 sm:grid-cols-2 xl:grid-cols-3">
-              {filteredTrees.map((tree) => (
-                <TreeCard
-                  key={tree.id}
-                  tree={tree}
-                  onAddToCart={handleAddToCart}
-                />
-              ))}
-            </div>
+          {/* Middle cards area */}
+          <div className="grid justify-items-center gap-6 sm:grid-cols-2 xl:grid-cols-3">
+            {filteredTrees.map((tree) => (
+              <TreeCard
+                key={tree.id}
+                tree={tree}
+                onAddToCart={handleAddToCart}
+              />
+            ))}
           </div>
 
-          {/* Right Cart Panel */}
-          <div className="self-start">
+          {/* Right cart */}
+          <div className="justify-self-end">
             <CartPanel items={cartItems} />
           </div>
         </div>

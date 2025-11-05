@@ -21,11 +21,11 @@ export default async function HomePage() {
 
 
 
-
-
+      {/* About Section */} 
+  
     <section
       id="about"
-      className="section-spacing bg-(--green-light)"
+      className="section-spacing bg-[#F0FDF4]"
       aria-labelledby="about-heading"
     >
       <div className="app-container grid items-center gap-10 md:grid-cols-2">
@@ -34,10 +34,10 @@ export default async function HomePage() {
           <div className="relative mx-auto max-w-sm overflow-hidden rounded-2xl bg-white card-shadow">
             <Image
               src="/images/hero-image.png"
-              alt="Young plant representing Green Earth campaign"
-              width={400}
-              height={400}
-              className=" object-cover"
+              alt="Green plant representing the campaign"
+              width={480}
+              height={480}
+              className="h-80 w-full object-cover"
               priority
             />
           </div>
@@ -51,7 +51,6 @@ export default async function HomePage() {
           >
             About the Campaign
           </h2>
-
           <p className="mt-4 text-sm leading-relaxed text-(--text-muted)">
             Green Earth is a global tree plantation initiative dedicated to
             fighting climate change. Since our start, we’ve planted hundreds of
@@ -59,8 +58,7 @@ export default async function HomePage() {
             help restore forests, create habitats for wildlife, and combat
             global warming.
           </p>
-
-          <ul className="mt-4 space-y-1 list-disc pl-5 text-sm text-(--text-muted)">
+          <ul className="mt-4 list-disc space-y-1 pl-5 text-sm text-(--text-muted)">
             <li>Restoration of natural habitats</li>
             <li>Improvement of air quality</li>
             <li>Support for local communities</li>

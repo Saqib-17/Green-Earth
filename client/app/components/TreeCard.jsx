@@ -2,14 +2,21 @@ import Button from "./Button";
 
 export default function TreeCard({ tree, onAddToCart }) {
   return (
-    <article className="flex h-full flex-col justify-between rounded-2xl bg-white p-4 card-shadow">
+    <article
+      className="
+        flex flex-col justify-between
+        rounded-2xl bg-white p-4 card-shadow
+        w-[343px] min-h-[382px] max-w-full
+      "
+    >
       <div>
-        {/* Image placeholder */}
+        {/* Image placeholder – fixed height, same size always */}
         <div className="mb-4 h-40 w-full rounded-xl bg-(--gray-bg)" />
 
         <h3 className="text-sm font-semibold text-gray-900">
           {tree.name}
         </h3>
+
         <p className="mt-2 line-clamp-3 text-xs leading-relaxed text-(--text-muted)">
           {tree.description}
         </p>
@@ -26,7 +33,7 @@ export default function TreeCard({ tree, onAddToCart }) {
 
       <div className="mt-4">
         <Button
-          className="w-full bg-(--green-primary) text-white py-2.5 text-sm"
+          className="w-full bg-(--green-primary) text-white py-2.5 text-sm rounded-full"
           onClick={() => onAddToCart(tree)}
         >
           Add to Cart

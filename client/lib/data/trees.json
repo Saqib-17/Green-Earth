@@ -18,6 +18,33 @@
     "image": "/images/guava-placeholder.png"
   },
   {
+    "id": "banana-1",
+    "name": "Banana Plant",
+    "categoryId": "fruit",
+    "tag": "Fruit Tree",
+    "price": 350,
+    "description": "A fast-growing tropical plant that produces bunches of sweet bananas and adds lush greenery to gardens.",
+    "image": "/images/banana-placeholder.png"
+  },
+  {
+    "id": "rose-1",
+    "name": "Rose Plant",
+    "categoryId": "flowering",
+    "tag": "Flowering Tree",
+    "price": 300,
+    "description": "A classic flowering plant admired for its vibrant blooms and pleasant fragrance, perfect for ornamental gardens.",
+    "image": "/images/rose-placeholder.png"
+  },
+  {
+    "id": "hibiscus-1",
+    "name": "Hibiscus Plant",
+    "categoryId": "flowering",
+    "tag": "Flowering Tree",
+    "price": 320,
+    "description": "A tropical shrub known for its large, colorful flowers that attract pollinators and enhance garden beauty.",
+    "image": "/images/hibiscus-placeholder.png"
+  },
+  {
     "id": "neem-1",
     "name": "Neem Tree",
     "categoryId": "medicinal",
@@ -27,6 +54,15 @@
     "image": "/images/neem-placeholder.png"
   },
   {
+    "id": "amla-1",
+    "name": "Amla Tree",
+    "categoryId": "medicinal",
+    "tag": "Medicinal Tree",
+    "price": 480,
+    "description": "Produces vitamin-C-rich fruits used in traditional remedies to improve immunity and overall wellness.",
+    "image": "/images/amla-placeholder.png"
+  },
+  {
     "id": "banyan-1",
     "name": "Banyan Tree",
     "categoryId": "shade",
@@ -34,5 +70,113 @@
     "price": 800,
     "description": "Majestic and long-lived, banyan trees offer expansive shade and become living landmarks in communities.",
     "image": "/images/banyan-placeholder.png"
+  },
+  {
+    "id": "rain-1",
+    "name": "Rain Tree",
+    "categoryId": "shade",
+    "tag": "Shade Tree",
+    "price": 700,
+    "description": "A large, umbrella-shaped tree that provides excellent shade and improves soil fertility through nitrogen fixation.",
+    "image": "/images/raintree-placeholder.png"
+  },
+  {
+    "id": "teak-1",
+    "name": "Teak Tree",
+    "categoryId": "timber",
+    "tag": "Timber Tree",
+    "price": 1200,
+    "description": "Valued for its strong, durable wood used in furniture and shipbuilding, teak trees are a key timber species.",
+    "image": "/images/teak-placeholder.png"
+  },
+  {
+    "id": "mahogany-1",
+    "name": "Mahogany Tree",
+    "categoryId": "timber",
+    "tag": "Timber Tree",
+    "price": 1000,
+    "description": "A premium hardwood tree prized for its deep reddish-brown color and resistance to decay.",
+    "image": "/images/mahogany-placeholder.png"
+  },
+  {
+    "id": "pine-1",
+    "name": "Pine Tree",
+    "categoryId": "evergreen",
+    "tag": "Evergreen Tree",
+    "price": 750,
+    "description": "An evergreen conifer that stays lush throughout the year, offering both shade and a calming forest aroma.",
+    "image": "/images/pine-placeholder.png"
+  },
+  {
+    "id": "eucalyptus-1",
+    "name": "Eucalyptus Tree",
+    "categoryId": "evergreen",
+    "tag": "Evergreen Tree",
+    "price": 600,
+    "description": "A tall, aromatic tree with silvery leaves, commonly used for essential oils and as a natural windbreak.",
+    "image": "/images/eucalyptus-placeholder.png"
+  },
+  {
+    "id": "ashoka-1",
+    "name": "Ashoka Tree",
+    "categoryId": "ornamental",
+    "tag": "Ornamental Plant",
+    "price": 550,
+    "description": "An elegant ornamental tree with fragrant orange-red flowers, symbolizing love and peace in Indian culture.",
+    "image": "/images/ashoka-placeholder.png"
+  },
+  {
+    "id": "palm-1",
+    "name": "Palm Tree",
+    "categoryId": "ornamental",
+    "tag": "Ornamental Plant",
+    "price": 600,
+    "description": "A tropical tree with slender trunks and fan-like leaves, ideal for resorts, gardens, and streetscapes.",
+    "image": "/images/palm-placeholder.png"
+  },
+  {
+    "id": "bamboo-1",
+    "name": "Bamboo Plant",
+    "categoryId": "bamboo",
+    "tag": "Bamboo",
+    "price": 380,
+    "description": "Fast-growing and versatile, bamboo is used for furniture, fencing, and landscaping while helping reduce carbon dioxide.",
+    "image": "/images/bamboo-placeholder.png"
+  },
+  {
+    "id": "money-1",
+    "name": "Money Plant",
+    "categoryId": "climbers",
+    "tag": "Climber",
+    "price": 250,
+    "description": "A low-maintenance indoor climber believed to bring prosperity and freshness to home interiors.",
+    "image": "/images/moneyplant-placeholder.png"
+  },
+  {
+    "id": "bougainvillea-1",
+    "name": "Bougainvillea",
+    "categoryId": "climbers",
+    "tag": "Climber",
+    "price": 320,
+    "description": "A bright flowering climber that covers walls and fences with vibrant pink and magenta hues.",
+    "image": "/images/bougainvillea-placeholder.png"
+  },
+  {
+    "id": "lotus-1",
+    "name": "Lotus",
+    "categoryId": "aquatic",
+    "tag": "Aquatic Plant",
+    "price": 420,
+    "description": "A sacred aquatic flower that symbolizes purity and beauty, commonly grown in ponds and water gardens.",
+    "image": "/images/lotus-placeholder.png"
+  },
+  {
+    "id": "waterlily-1",
+    "name": "Water Lily",
+    "categoryId": "aquatic",
+    "tag": "Aquatic Plant",
+    "price": 400,
+    "description": "A floating aquatic plant with beautiful blooms, adding tranquility and color to ponds and lakes.",
+    "image": "/images/waterlily-placeholder.png"
   }
 ]
