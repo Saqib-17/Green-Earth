@@ -31,19 +31,22 @@ export default function MainTreeSection({ trees, categories }) {
   return (
     <section
       id="trees"
-      className="section-spacing bg-[#f3fbf6]"
+      className="section-spacing bg-[#F1FAF4]"
       aria-labelledby="trees-heading"
     >
       <div className="app-container">
+        {/* Heading */}
         <h2
           id="trees-heading"
-          className="mb-8 text-center text-2xl font-semibold text-gray-900"
+          className="mb-10 text-center text-2xl font-semibold text-gray-900"
         >
           Choose Your Trees
         </h2>
 
-        <div className="grid gap-6 lg:grid-cols-[220px,1fr,260px]">
-          <div className="order-1">
+        {/* GRID: left 240px | middle flexible | right 260px */}
+        <div className="grid gap-8 lg:grid-cols-[240px_minmax(0,1fr)_260px] xl:grid-cols-[260px_minmax(0,1.15fr)_280px]">
+          {/* Left Sidebar */}
+          <div className="self-start">
             <CategorySidebar
               categories={categories}
               activeCategoryId={activeCategoryId}
@@ -51,8 +54,9 @@ export default function MainTreeSection({ trees, categories }) {
             />
           </div>
 
-          <div className="order-3 lg:order-2">
-            <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+          {/* Middle Cards Grid */}
+          <div>
+            <div className="grid gap-8 sm:grid-cols-2 xl:grid-cols-3">
               {filteredTrees.map((tree) => (
                 <TreeCard
                   key={tree.id}
@@ -63,7 +67,8 @@ export default function MainTreeSection({ trees, categories }) {
             </div>
           </div>
 
-          <div className="order-2 lg:order-3">
+          {/* Right Cart Panel */}
+          <div className="self-start">
             <CartPanel items={cartItems} />
           </div>
         </div>
