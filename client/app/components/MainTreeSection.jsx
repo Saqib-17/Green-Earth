@@ -13,7 +13,8 @@ export default function MainTreeSection({ trees, categories }) {
     if (activeCategoryId === "all") return trees;
     return trees.filter((tree) => tree.categoryId === activeCategoryId);
   }, [trees, activeCategoryId]);
-
+  
+{/* Add to cart handler */} 
   function handleAddToCart(tree) {
     setCartItems((prev) => {
       const existing = prev.find((item) => item.id === tree.id);

@@ -41,7 +41,7 @@ export default async function HomePage() {
       lg:grid-cols-[250px_1090px_250px]
     "
   >
-    {/* Left spacer (aligns with cart) */}  
+    {/* Left spacer (same aligns with cart) */}  
     <div />
     {/* Center content */}  
     <div
@@ -84,7 +84,7 @@ export default async function HomePage() {
       </div>
     </div>
 
-    {/* Right spacer (aligns with cart) */}
+    {/* Right spacer (same align with cart) */}
     <div />
   </div>
 </section>

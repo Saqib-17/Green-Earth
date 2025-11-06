@@ -6,7 +6,7 @@
     "tag": "Fruit Tree",
     "price": 500,
     "description": "A fast-growing tropical tree that produces delicious, juicy mangoes during summer. Its dense green canopy provides ample shade.",
-    "image": "/images/mango-placeholder.png"
+    "image": "https://i.ibb.co/tpdJvFPJ/mango.png"
   },
   {
     "id": "guava-1",
@@ -15,7 +15,7 @@
     "tag": "Fruit Tree",
     "price": 450,
     "description": "Hardy and productive, guava trees yield vitamin-rich fruits and thrive in warm, humid climates.",
-    "image": "/images/guava-placeholder.png"
+    "image": "https://i.ibb.co/k2BcQdtS/guava.png"
   },
   {
     "id": "banana-1",
@@ -24,7 +24,7 @@
     "tag": "Fruit Tree",
     "price": 350,
     "description": "A fast-growing tropical plant that produces bunches of sweet bananas and adds lush greenery to gardens.",
-    "image": "/images/banana-placeholder.png"
+    "image": "https://i.ibb.co/Kc4Jj5GP/banana.png"
   },
   {
     "id": "rose-1",
@@ -33,7 +33,7 @@
     "tag": "Flowering Tree",
     "price": 300,
     "description": "A classic flowering plant admired for its vibrant blooms and pleasant fragrance, perfect for ornamental gardens.",
-    "image": "/images/rose-placeholder.png"
+    "image": "https://i.ibb.co/ks5SzNvx/rose.png"
   },
   {
     "id": "hibiscus-1",
@@ -42,7 +42,7 @@
     "tag": "Flowering Tree",
     "price": 320,
     "description": "A tropical shrub known for its large, colorful flowers that attract pollinators and enhance garden beauty.",
-    "image": "/images/hibiscus-placeholder.png"
+    "image": "https://i.ibb.co/27zSv5rp/hibiscus.png"
   },
   {
     "id": "neem-1",
@@ -51,7 +51,7 @@
     "tag": "Medicinal Tree",
     "price": 400,
     "description": "A traditional medicinal tree known for its air-purifying qualities and natural pest-repellent properties.",
-    "image": "/images/neem-placeholder.png"
+    "image": "https://i.ibb.co/2093KBV5/neem.png"
   },
   {
     "id": "amla-1",
@@ -60,7 +60,7 @@
     "tag": "Medicinal Tree",
     "price": 480,
     "description": "Produces vitamin-C-rich fruits used in traditional remedies to improve immunity and overall wellness.",
-    "image": "/images/amla-placeholder.png"
+    "image": "https://i.ibb.co/zTCTqNjq/amla.png"
   },
   {
     "id": "banyan-1",
@@ -69,7 +69,7 @@
     "tag": "Shade Tree",
     "price": 800,
     "description": "Majestic and long-lived, banyan trees offer expansive shade and become living landmarks in communities.",
-    "image": "/images/banyan-placeholder.png"
+    "image": "https://i.ibb.co/zWDRY7YT/banyan.png"
   },
   {
     "id": "rain-1",
@@ -78,7 +78,7 @@
     "tag": "Shade Tree",
     "price": 700,
     "description": "A large, umbrella-shaped tree that provides excellent shade and improves soil fertility through nitrogen fixation.",
-    "image": "/images/raintree-placeholder.png"
+    "image": "https://i.ibb.co/PGz3HsX7/rain.png"
   },
   {
     "id": "teak-1",
@@ -87,7 +87,7 @@
     "tag": "Timber Tree",
     "price": 1200,
     "description": "Valued for its strong, durable wood used in furniture and shipbuilding, teak trees are a key timber species.",
-    "image": "/images/teak-placeholder.png"
+    "image": "https://i.ibb.co/Df9LxQdc/teak.png"
   },
   {
     "id": "mahogany-1",
@@ -96,7 +96,7 @@
     "tag": "Timber Tree",
     "price": 1000,
     "description": "A premium hardwood tree prized for its deep reddish-brown color and resistance to decay.",
-    "image": "/images/mahogany-placeholder.png"
+    "image": "https://i.ibb.co/Hfn16pKB/mahogany.png"
   },
   {
     "id": "pine-1",
@@ -105,7 +105,7 @@
     "tag": "Evergreen Tree",
     "price": 750,
     "description": "An evergreen conifer that stays lush throughout the year, offering both shade and a calming forest aroma.",
-    "image": "/images/pine-placeholder.png"
+    "image": "https://i.ibb.co/wh51qDDm/pine.png"
   },
   {
     "id": "eucalyptus-1",
@@ -114,7 +114,7 @@
     "tag": "Evergreen Tree",
     "price": 600,
     "description": "A tall, aromatic tree with silvery leaves, commonly used for essential oils and as a natural windbreak.",
-    "image": "/images/eucalyptus-placeholder.png"
+    "image": "https://i.ibb.co/nsjF491B/eucalyptus.png"
   },
   {
     "id": "ashoka-1",
@@ -123,7 +123,7 @@
     "tag": "Ornamental Plant",
     "price": 550,
     "description": "An elegant ornamental tree with fragrant orange-red flowers, symbolizing love and peace in Indian culture.",
-    "image": "/images/ashoka-placeholder.png"
+    "image": "https://i.ibb.co/0V2DL0KC/ashoka.png"
   },
   {
     "id": "palm-1",
@@ -132,7 +132,7 @@
     "tag": "Ornamental Plant",
     "price": 600,
     "description": "A tropical tree with slender trunks and fan-like leaves, ideal for resorts, gardens, and streetscapes.",
-    "image": "/images/palm-placeholder.png"
+    "image": "https://i.ibb.co/zVfjzYsG/palm.png"
   },
   {
     "id": "bamboo-1",
@@ -141,7 +141,7 @@
     "tag": "Bamboo",
     "price": 380,
     "description": "Fast-growing and versatile, bamboo is used for furniture, fencing, and landscaping while helping reduce carbon dioxide.",
-    "image": "/images/bamboo-placeholder.png"
+    "image": "https://i.ibb.co/9kd14GTd/bamboo.png"
   },
   {
     "id": "money-1",
@@ -150,7 +150,7 @@
     "tag": "Climber",
     "price": 250,
     "description": "A low-maintenance indoor climber believed to bring prosperity and freshness to home interiors.",
-    "image": "/images/moneyplant-placeholder.png"
+    "image": "https://i.ibb.co/352ytkBr/money.png"
   },
   {
     "id": "bougainvillea-1",
@@ -159,7 +159,7 @@
     "tag": "Climber",
     "price": 320,
     "description": "A bright flowering climber that covers walls and fences with vibrant pink and magenta hues.",
-    "image": "/images/bougainvillea-placeholder.png"
+    "image": "https://i.ibb.co/k2DKqLw4/Bougainvillea.png"
   },
   {
     "id": "lotus-1",
@@ -168,7 +168,7 @@
     "tag": "Aquatic Plant",
     "price": 420,
     "description": "A sacred aquatic flower that symbolizes purity and beauty, commonly grown in ponds and water gardens.",
-    "image": "/images/lotus-placeholder.png"
+    "image": "https://i.ibb.co/spRLZsFv/lotus.png"
   },
   {
     "id": "waterlily-1",
@@ -177,6 +177,6 @@
     "tag": "Aquatic Plant",
     "price": 400,
     "description": "A floating aquatic plant with beautiful blooms, adding tranquility and color to ponds and lakes.",
-    "image": "/images/waterlily-placeholder.png"
+    "image": "https://i.ibb.co/N6pdLBfY/water-lily.png"
   }
 ]

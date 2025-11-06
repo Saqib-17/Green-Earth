@@ -1,5 +1,5 @@
 "use client";
-
+{/*cart calculation and display component*/}
 export default function CartPanel({ items, onRemoveItem }) {
   const total = items.reduce(
     (sum, item) => sum + item.price * item.quantity,

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Button from "./Button";
 
 export default function TreeCard({ tree, onAddToCart }) {
@@ -10,15 +11,23 @@ export default function TreeCard({ tree, onAddToCart }) {
       "
     >
       <div>
-        {/* Image placeholder */}
-        <div className="mb-4 h-40 w-full rounded-xl bg-(--gray-bg)" />
+        {/* Image preload */}
+        <div className="mb-4 h-40 w-full rounded-xl overflow-hidden bg-[--gray-bg] relative">
+          <Image
+            src={tree.image}
+            alt={tree.name}
+            fill
+            className="object-cover transition-opacity duration-300"
+            unoptimized   
+            priority 
+          />
+        </div>
 
         <h3 className="text-sm font-semibold text-gray-900">
           {tree.name}
         </h3>
 
-  
-        <p className="mt-2 text-sm leading-relaxed text-(--text-muted) line-clamp-3">
+        <p className="mt-2 text-sm leading-relaxed text-[--text-muted] line-clamp-3">
           {tree.description}
         </p>
 

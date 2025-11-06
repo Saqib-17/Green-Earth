@@ -15,7 +15,7 @@ Users can explore tree categories, add trees to their cart, and learn about the 
 ## ⚙️ Setup
 
 ```bash
-git clone https://github.com/yourusername/green-earth.git
+git clone https://github.com/Saqib-17/Green-Earth.git
 cd green-earth
 npm install
 npm run dev
@@ -38,11 +38,11 @@ Runs locally at → **[http://localhost:3000](http://localhost:3000)**
 
 ## 🧩 Tech Stack
 
-* **Next.js 14 (App Router)**
-* **React 18**
+* **Next.js**
+* **React**
 * **Tailwind CSS + PostCSS**
 * **JSON data library** for trees and categories
-* **Netlify / Vercel** (Deployment)
+* **Vercel** (Deployment)
 
 ---
 
