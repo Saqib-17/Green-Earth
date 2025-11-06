@@ -34,57 +34,61 @@ export default function MainTreeSection({ trees, categories }) {
 
 
   return (
-    <section
-      id="trees"
-      className="section-spacing bg-[#F0FDF4]"
-      aria-labelledby="trees-heading"
+  <section
+  id="trees"
+  className="section-spacing bg-[#F0FDF4]"
+  aria-labelledby="trees-heading"
+>
+  <div className="app-container">
+    <div className="flex justify-center lg:ml-[250px] lg:mr-[250px]">
+      <h2
+        id="trees-heading"
+        className="mb-10 text-center text-2xl font-semibold text-gray-900"
+      >
+        Choose Your Trees
+      </h2>
+    </div>
+
+    <div
+      className="
+        grid grid-cols-1 items-start gap-6
+        md:gap-8
+        lg:grid-cols-[250px_minmax(0,1fr)_250px]
+      "
     >
-      <div className="app-container">
-        <h2
-          id="trees-heading"
-          className="mb-10 text-center text-2xl font-semibold text-gray-900"
-        >
-          Choose Your Trees
-        </h2>
-
-        <div
-          className="
-            grid grid-cols-1 items-start gap-6
-            md:gap-8
-            lg:grid-cols-[250px_1090px_250px]
-          "
-        >          {/* Sidebar */}
-          <div>
-            <CategorySidebar
-              categories={categories}
-              activeCategoryId={activeCategoryId}
-              onSelectCategory={setActiveCategoryId}
-            />
-          </div>
-
-          {/* Cards */}
-          <div
-            className="
-              grid gap-6
-              sm:grid-cols-2
-              xl:grid-cols-3
-            "
-          >
-            {filteredTrees.map((tree) => (
-              <TreeCard
-                key={tree.id}
-                tree={tree}
-                onAddToCart={handleAddToCart}
-              />
-            ))}
-          </div>
-          {/* Cart Panel */}
-          <div className="mt-4 lg:mt-0">
-           <CartPanel items={cartItems} onRemoveItem={handleRemoveItem} />
-
-          </div>
-        </div>
+      {/* Sidebar */}
+      <div>
+        <CategorySidebar
+          categories={categories}
+          activeCategoryId={activeCategoryId}
+          onSelectCategory={setActiveCategoryId}
+        />
       </div>
-    </section>
+
+      {/* Cards */}
+      <div
+        className="
+          grid gap-6
+          sm:grid-cols-2
+          xl:grid-cols-3
+        "
+      >
+        {filteredTrees.map((tree) => (
+          <TreeCard
+            key={tree.id}
+            tree={tree}
+            onAddToCart={handleAddToCart}
+          />
+        ))}
+      </div>
+
+      {/* Cart */}
+      <div className="mt-4 lg:mt-0">
+        <CartPanel items={cartItems} onRemoveItem={handleRemoveItem} />
+      </div>
+    </div>
+  </div>
+</section>
+
   );
 }
