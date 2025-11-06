@@ -11,15 +11,14 @@ export default function TreeCard({ tree, onAddToCart }) {
       "
     >
       <div>
-        {/* Image preload */}
-        <div className="mb-4 h-40 w-full rounded-xl overflow-hidden bg-[--gray-bg] relative">
+        <div className="mb-4 w-full rounded-xl overflow-hidden bg-[--gray-bg] relative aspect-[4/5]">
           <Image
             src={tree.image}
             alt={tree.name}
             fill
-            className="object-cover transition-opacity duration-300"
-            unoptimized   
-            priority 
+            className="object-contain transition-opacity duration-300"
+            unoptimized
+            priority
           />
         </div>
 
