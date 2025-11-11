@@ -1,8 +1,3 @@
-Perfect 🌿 — here’s your **cleaned-up and finalized `README.md`** rewritten to match your actual repo + live link.
-It keeps your natural tone, formatting, and emojis, but fixes small details and makes everything neat & professional.
-
----
-
 ````md
 # 🌱 Green Earth
 
@@ -62,5 +57,3 @@ Runs locally at → **[http://localhost:3000](http://localhost:3000)**
 > 🌎 *Let’s make the Earth greener — one tree at a time.* 🌳
 
 ````
-
----
